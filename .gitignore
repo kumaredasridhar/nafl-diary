@@ -5,3 +5,4 @@ web/dist
 web/.vercel
 .DS_Store
 *.log
+.env*
