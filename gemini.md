@@ -97,3 +97,4 @@ When the user says **"updated notes.md"** (or whenever implementing new features
 5. **Keep `notes.md` lean:** Maintain strictly `**FIXES**`, `**DISCUSSION POINTS**`, and `**PARKED**` in `notes.md` (no `**DONE**` section). Leave the `**FIXES**` section completely blank after implementation so the user can continue adding new items.
 6. **Respond to `**DISCUSSION POINTS**`:** If populated, provide thorough, structured thoughts and architectural options in the terminal response. If blank, ignore.
 7. **Preserve `**PARKED**`:** Leave all parked items intact unless explicitly instructed otherwise.
+8. **Git Commit & Push to GitHub:** Commit all completed and verified changes and push to GitHub repository (`https://github.com/kumaredasridhar/nafl-diary`, branch `main`) to keep the remote repository and Vercel deployments up to date.
